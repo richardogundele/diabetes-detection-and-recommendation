@@ -1,10 +1,12 @@
-Diabetes Diagnosis and Recommendation System
+#Diabetes Diagnosis and Recommendation System
+
 This Prolog program is designed to diagnose and provide recommendations for different types of diabetes based on symptoms reported by a patient. It interacts with the user to collect symptoms and make a preliminary diagnosis.
 
 Prerequisites
 To run this program, you need to have a Prolog interpreter installed on your system. You can use SWI-Prolog, which is a popular Prolog interpreter.
 
 Getting Started
+
 #1. Clone or Download
 Clone or download this repository to your local machine.
 
@@ -17,14 +19,17 @@ Load the diabetes_diagnosis.pl file into the interpreter. You can do this by nav
 #prolog
 Copy code
 [diabetes_diagnosis].
+
 #4. Start the Program
 Start the program by running the start predicate:
 
 prolog
 Copy code
 start.
+
 #5. Answer Questions
 When prompted, answer the questions with 'yes' (or 'y') for symptoms that apply and 'no' for those that do not.
+
 #6. Receive Diagnosis and Recommendations
 The program will use your responses to determine the type of diabetes (either Type 1 or Type 2) and provide recommendations accordingly.
 
